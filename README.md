@@ -21,5 +21,9 @@ Short, working examples of the kind of jobs I take: web scraping, Excel/VBA-styl
 - [One-page website maker for small shops](web/biz-landing-template-kit/) - A browser tool that turns a business name, intro and phone number into a single-file one-page website and a share image, with no install or sign-up. (demo only)
 - [Static Dashboard from a Public-Data CSV](web/public-data-dashboard-demo/) - A Python script cleans one Korean public-data CSV, and a static page with filters, KPI cards, SVG charts and a sortable table opens straight from index.html with no server. (code)
 
+## 업무 자동화
+
+- [File Sorting with Move Logs](automation/automation-7aba49/) - A Python command-line tool that sorts files by extension and filename rules, previews planned moves, and records completed moves in JSONL logs. (code)
+
 ---
 Built and tested with Claude Code. No client work is shown here; every demo uses sample or public practice data.
