@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지역 통계 대시보드</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1></h1>
+  <p id="source"></p>
+</header>
+<main>
+  <section class="filters" aria-label="필터">
+    <label>지역 <select id="region-select"></select></label>
+    <label>시작 <select id="period-from"></select></label>
+    <label>끝 <select id="period-to"></select></label>
+    <button id="reset-filter" type="button">초기화</button>
+  </section>
+  <p id="empty-msg" hidden>조건에 맞는 데이터가 없습니다</p>
+  <section id="cards" class="cards">
+    <div class="card" data-id="card-total"><div class="card-label">선택 기간 합계</div><div class="card-value"></div></div>
+    <div class="card" data-id="card-latest"><div class="card-label">최근 기간 값</div><div class="card-value"></div></div>
+    <div class="card" data-id="card-top"><div class="card-label">최고 지역</div><div class="card-value"></div></div>
+  </section>
+  <section class="chart-box">
+    <h2>기간별 추이</h2>
+    <p class="chart-unit"></p>
+    <svg id="trend-chart" viewBox="0 0 640 260" role="img" aria-label="기간별 추이 선그래프"></svg>
+  </section>
+  <section class="chart-box">
+    <h2>지역별 순위</h2>
+    <p class="chart-unit"></p>
+    <svg id="rank-chart" viewBox="0 0 640 260" role="img" aria-label="지역별 순위 막대그래프"></svg>
+  </section>
+  <section class="chart-box">
+    <div class="table-head">
+      <h2>상세 데이터 <span id="row-count"></span></h2>
+      <button id="download-csv" type="button">CSV 내려받기</button>
+    </div>
+    <div class="table-wrap">
+      <table id="data-table">
+        <thead><tr>
+          <th data-key="region" tabindex="0">지역</th>
+          <th data-key="period" tabindex="0">기간</th>
+          <th data-key="value" tabindex="0">값</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+<script src="data/data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

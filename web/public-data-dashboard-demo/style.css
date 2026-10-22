@@ -1,0 +1,44 @@
+*{box-sizing:border-box}
+html,body{margin:0;max-width:100%;overflow-x:hidden}
+body{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;background:#f3f5f9;color:#1d2433;line-height:1.5}
+header{background:#1f3a6b;color:#fff;padding:20px 16px}
+h1{margin:0;font-size:1.5rem;word-break:keep-all}
+#source{margin:4px 0 0;opacity:.85;font-size:.9rem}
+main{max-width:960px;margin:0 auto;padding:16px}
+h2{font-size:1.05rem;margin:0 0 8px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin-bottom:12px}
+.filters label{display:flex;flex-direction:column;font-size:.85rem;gap:2px;min-width:0}
+select,button{font:inherit;padding:6px 10px;border:1px solid #b9c2d3;border-radius:6px;background:#fff;max-width:100%}
+button{cursor:pointer;background:#2c5fb3;color:#fff;border-color:#2c5fb3}
+button:hover{background:#244f96}
+#empty-msg{background:#fff3cd;border:1px solid #f0d98a;padding:10px;border-radius:6px}
+#empty-msg[hidden]{display:none}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
+.card{background:#fff;border-radius:8px;padding:14px;box-shadow:0 1px 3px rgba(0,0,0,.08);min-width:0}
+.card-label{font-size:.8rem;color:#5a6479}
+.card-value{font-size:1.4rem;font-weight:700;margin-top:4px;overflow-wrap:anywhere}
+.chart-box{background:#fff;border-radius:8px;padding:14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.08);min-width:0}
+svg{display:block;width:100%;max-width:100%;height:auto}
+svg text{font-size:12px;fill:#5a6479}
+svg .line{fill:none;stroke:#2c5fb3;stroke-width:2.5}
+svg .point{fill:#fff;stroke:#2c5fb3;stroke-width:2}
+svg .bar{fill:#4f86d9}
+svg .grid{stroke:#e3e7ef}
+.table-head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.table-head h2{margin:0}
+#row-count{font-weight:400;color:#5a6479;font-size:.9rem}
+.table-wrap{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;width:100%;min-width:300px}
+th,td{padding:8px 10px;border-bottom:1px solid #e3e7ef;text-align:left}
+td:nth-child(3),th:nth-child(3){text-align:right}
+th{cursor:pointer;background:#f3f5f9;user-select:none;white-space:nowrap}
+th[aria-sort=ascending]::after{content:" ▲"}
+th[aria-sort=descending]::after{content:" ▼"}
+@media (max-width:600px){
+  .cards{grid-template-columns:1fr}
+  h1{font-size:1.25rem}
+  .filters label{flex:1 1 40%}
+  .filters select{width:100%}
+}
+
+.chart-unit{margin:0 0 6px;font-size:.8rem;color:#5a6479}
