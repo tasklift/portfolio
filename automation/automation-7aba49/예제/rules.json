@@ -1,0 +1,1 @@
+{"rules":[{"extension":".pdf","name":"invoice_*","target":"invoices"},{"extension":".pdf","target":"documents"},{"extension":".jpg","target":"images"}]}
