@@ -24,6 +24,7 @@ Short, working examples of the kind of jobs I take: web scraping, Excel/VBA-styl
 ## 업무 자동화
 
 - [File Sorting with Move Logs](automation/automation-7aba49/) - A Python command-line tool that sorts files by extension and filename rules, previews planned moves, and records completed moves in JSONL logs. (code)
+- [Compare Product CSVs and Track Changes](automation/automation-ac3ab7/) - A Python command-line tool that compares two product CSVs by SKU and saves product statuses, changed fields, price and stock differences, counts, and execution logs. (code)
 
 ---
 Built and tested with Claude Code. No client work is shown here; every demo uses sample or public practice data.

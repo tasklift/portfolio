@@ -1,0 +1,8 @@
+﻿record_id,name,email,amount,date
+1, 홍길동 ,hong@example.com,1000,2024-02-29
+1,홍길동,hong@example.com,1000,2024-02-29
+1,홍길동,hong@example.com,1000,2024-02-29
+2,,bad,1e3,2026-02-30
+3,"<a&b>
+줄바꿈",x@y.kr,-5.25,2026-01-01
+,,,,
