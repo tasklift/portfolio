@@ -1,0 +1,30 @@
+{
+  "industry": "academy",
+  "name": "Bright Path Tutoring",
+  "intro": "Small-group classes that meet every student where they are.",
+  "phone": "(555) 010-1234",
+  "kakao_url": "https://wa.me/15550101234",
+  "map_url": "https://www.openstreetmap.org/search?query=tutoring",
+  "form_action": "mailto:hello@example.com",
+  "color": "#2563eb",
+  "photos": [
+    "photos/class1.png",
+    "photos/class2.png"
+  ],
+  "services": [
+    {
+      "title": "Elementary math",
+      "desc": "Step-by-step lessons from basics to problem solving"
+    },
+    {
+      "title": "Middle school English",
+      "desc": "Grades and speaking practice together"
+    },
+    {
+      "title": "High school test prep",
+      "desc": "Focused coaching for exam season"
+    }
+  ],
+  "address": "123 Main Street, Springfield",
+  "privacy_notice": "Collected: name, phone, message. Purpose: replying to your inquiry. Kept for 3 months after we reply. (Sample text - check it before you go live.)"
+}

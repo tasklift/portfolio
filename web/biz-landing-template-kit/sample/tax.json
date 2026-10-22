@@ -1,0 +1,30 @@
+{
+  "industry": "tax",
+  "name": "Trust & Co. Accounting",
+  "intro": "A dependable tax partner for freelancers and small businesses.",
+  "phone": "(555) 010-5678",
+  "kakao_url": "https://wa.me/15550105678",
+  "map_url": "https://www.openstreetmap.org/search?query=accountant",
+  "form_action": "mailto:office@example.com",
+  "color": "#047857",
+  "photos": [
+    "photos/class1.png",
+    "photos/class2.png"
+  ],
+  "services": [
+    {
+      "title": "Bookkeeping",
+      "desc": "Monthly books and sales tax filing"
+    },
+    {
+      "title": "Annual tax return",
+      "desc": "Includes a tax-saving consultation"
+    },
+    {
+      "title": "Business start-up advice",
+      "desc": "From registration to tax planning"
+    }
+  ],
+  "address": "45 Market Avenue, Springfield",
+  "privacy_notice": "Collected: name, phone, message. Purpose: replying to your inquiry. Kept for 3 months after we reply. (Sample text - check it before you go live.)"
+}

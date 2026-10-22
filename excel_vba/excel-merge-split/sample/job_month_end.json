@@ -1,0 +1,30 @@
+{
+ "name": "Month-end close",
+ "steps": [
+  {
+   "cmd": "merge",
+   "inputs": [
+    "branch_reports"
+   ],
+   "header_row": "2",
+   "out": "results/merged.xlsx"
+  },
+  {
+   "cmd": "dedupe",
+   "input": "results/merged.xlsx",
+   "keys": [
+    "Branch",
+    "Item Code",
+    "Date"
+   ],
+   "out": "results/cleaned.xlsx"
+  },
+  {
+   "cmd": "summary",
+   "input": "results/cleaned.xlsx",
+   "by": "Branch",
+   "sum": "Amount",
+   "out": "results/totals_by_branch.xlsx"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "industry": "salon",
+  "name": "Willow Hair Studio",
+  "intro": "Your neighborhood salon for a style that suits you.",
+  "phone": "(555) 010-9012",
+  "kakao_url": "https://wa.me/15550109012",
+  "map_url": "https://www.openstreetmap.org/search?query=hair+salon",
+  "form_action": "https://example.com/form",
+  "color": "#c026d3",
+  "photos": [
+    "photos/class1.png",
+    "photos/class2.png"
+  ],
+  "services": [
+    {
+      "title": "Haircut",
+      "desc": "A cut tailored to your face shape"
+    },
+    {
+      "title": "Perm",
+      "desc": "Natural-looking volume"
+    },
+    {
+      "title": "Color",
+      "desc": "Color consultation to match your skin tone"
+    }
+  ],
+  "address": "67 Park Road, Springfield",
+  "privacy_notice": "Collected: name, phone, message. Purpose: replying to your inquiry. Kept for 3 months after we reply. (Sample text - check it before you go live.)"
+}

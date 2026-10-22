@@ -1,0 +1,1 @@
+{"name": "예제쇼핑몰", "item": "li.prd", "fields": {"상품명": "span.nm", "가격": "em.pr", "리뷰": "span.rv", "링크": "a.lnk@href"}}
