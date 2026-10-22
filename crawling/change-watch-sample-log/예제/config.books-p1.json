@@ -1,0 +1,12 @@
+{
+  "user_agent": "portfolio-change-watcher/1.0",
+  "min_interval_sec": 1.0,
+  "sites": [
+    {
+      "name": "books",
+      "urls": ["https://books.toscrape.com/catalogue/page-1.html"],
+      "item_regex": "<h3><a href=\"[^\"]*\" title=\"(?P<title>[^\"]*)\">.*?<p class=\"price_color\">(?P<price>[^<]*)</p>",
+      "key_field": "title"
+    }
+  ]
+}

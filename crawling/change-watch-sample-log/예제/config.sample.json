@@ -1,0 +1,12 @@
+{
+  "user_agent": "portfolio-change-watcher/1.0",
+  "min_interval_sec": 1.0,
+  "sites": [
+    {
+      "name": "siteA",
+      "urls": ["http://127.0.0.1:8000/a1.html"],
+      "item_regex": "<li><b>(?P<name>.*?)</b><i>(?P<price>.*?)</i></li>",
+      "key_field": "name"
+    }
+  ]
+}

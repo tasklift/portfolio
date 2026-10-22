@@ -1,0 +1,38 @@
+{
+ "label": "before",
+ "collected_at": "2026-10-15T09:00:00",
+ "records": [
+  {
+   "site": "shopA",
+   "key": "노트북 거치대",
+   "fields": {
+    "name": "노트북 거치대",
+    "price": "24,000"
+   }
+  },
+  {
+   "site": "shopA",
+   "key": "무선 마우스",
+   "fields": {
+    "name": "무선 마우스",
+    "price": "18,900"
+   }
+  },
+  {
+   "site": "shopA",
+   "key": "USB 허브",
+   "fields": {
+    "name": "USB 허브",
+    "price": "15,000"
+   }
+  },
+  {
+   "site": "shopA",
+   "key": "모니터 받침",
+   "fields": {
+    "name": "모니터 받침",
+    "price": "32,000"
+   }
+  }
+ ]
+}
